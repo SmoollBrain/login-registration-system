@@ -18,4 +18,4 @@ $ cmake ../
 $ make (for Linux)
 ```
 
-If you use Windows you need to open the project in Visual Studio and build it.
+If you use Windows you need to replace the .a file with the .lib file after recompiling in lib/json/ and in the CMakeLists.txt file replace .a with .lib in IMPORTED_LOCATION.
